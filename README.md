@@ -1,5 +1,5 @@
 # Kubernetes_Concepts
-My imp notes
+K8s Architecture
 Master Node and Worker Node: The Basics
 Kubernetes operates on a master-worker node concept. These nodes can be either bare metal machines or Virtual Machines (VMs) on any cloud instance. Let's delve into the components and see how they interconnect.
 
