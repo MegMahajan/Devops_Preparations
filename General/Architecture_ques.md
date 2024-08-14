@@ -31,3 +31,5 @@ I’d implement centralized logging and monitoring (using tools like AWS CloudWa
 5. Backup and Disaster Recovery:
 
 Automated backups and a clear disaster recovery plan would ensure data integrity and quick recovery in case of failures.
+
+Link : https://www.showwcase.com/article/35459/building-a-resilient-three-tier-architecture-on-aws-with-deploying-mern-stack-application
