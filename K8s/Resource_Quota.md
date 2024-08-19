@@ -21,6 +21,9 @@ resources:
     cpu: "1"
 In this case, the container requests 256MiB of memory and 500m (0.5 cores) of CPU.
 It will not consume more than 512MiB of memory or 1 full CPU core, as these are the set limits.
+
+Req->Min
+Limit->Max
 Key Points:
 Requests are used for scheduling decisions.
 Limits control the maximum usage to prevent overconsumption of resources.
