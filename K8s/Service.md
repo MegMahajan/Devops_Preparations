@@ -1,4 +1,4 @@
-Kubernetes Services provide a way to expose a group of Pods as a network service. Since Pods in Kubernetes are ephemeral and can be dynamically created and destroyed, their IP addresses are not static. Services offer a stable endpoint (a single IP address or DNS name) to connect to a group of Pods, ensuring reliable communication within and outside the Kubernetes cluster.
+Kubernetes Services provide a way to expose a group of Pods as a network service. Since Pods in Kubernetes are  ephemeral and can be dynamically created and destroyed, their IP addresses are not static. Services offer a stable endpoint (a single IP address or DNS name) to connect to a group of Pods, ensuring reliable communication within and outside the Kubernetes cluster.
 
 Key Concepts:
 Service Discovery:
