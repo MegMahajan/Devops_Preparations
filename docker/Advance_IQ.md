@@ -1,12 +1,13 @@
  Docker Architecture
-1.Question: Explain the Docker architecture and the role of key components like the Docker Engine, Docker Daemon, Docker CLI, and Docker Registry.
+1. Question:
+Explain the Docker architecture and the role of key components like the Docker Engine, Docker Daemon, Docker CLI, and Docker Registry.
 Answer: Docker uses a client-server architecture. The Docker Engine consists of the Docker Daemon (a service running on the host machine that manages Docker objects) and the Docker CLI (a command-line tool used by clients to communicate with the Docker Daemon). The Docker Registry is a repository for Docker images where Docker Hub is a public registry, and users can also create private registries.
 
-3. Docker Networking
+2. Docker Networking
 Question: How do you create and configure a custom Docker network? Explain the difference between bridge, host, and overlay networks.
 Answer: To create a custom network, you can use docker network create with various options. A bridge network is the default and provides network isolation. A host network shares the host's network stack, offering better performance but less isolation. An overlay network is used for multi-host communication, connecting containers across different hosts in a Docker Swarm cluster.
 
-5. Docker Volumes
+6. Docker Volumes
 Question: How does Docker manage data persistence using volumes, and what are the differences between volumes, bind mounts, and tmpfs mounts?
 Answer: Volumes are managed by Docker and stored outside the container's filesystem. Bind mounts map a file or directory on the host to a location inside the container. tmpfs mounts store data in the host’s memory and are used for storing ephemeral data that does not need persistence.
 
