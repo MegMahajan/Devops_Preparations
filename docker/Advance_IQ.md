@@ -1,5 +1,5 @@
-1. Docker Architecture
-Question: Explain the Docker architecture and the role of key components like the Docker Engine, Docker Daemon, Docker CLI, and Docker Registry.
+ Docker Architecture
+1.Question: Explain the Docker architecture and the role of key components like the Docker Engine, Docker Daemon, Docker CLI, and Docker Registry.
 Answer: Docker uses a client-server architecture. The Docker Engine consists of the Docker Daemon (a service running on the host machine that manages Docker objects) and the Docker CLI (a command-line tool used by clients to communicate with the Docker Daemon). The Docker Registry is a repository for Docker images where Docker Hub is a public registry, and users can also create private registries.
 
 3. Docker Networking
