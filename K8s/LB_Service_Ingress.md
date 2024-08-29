@@ -14,6 +14,22 @@ Advanced Routing: Control traffic based on paths or domains.
 SSL Termination: Easily secure traffic with HTTPS.
 Cost Efficiency: Use one load balancer for multiple services.
 
+
+****
+A Service in Kubernetes is a way to expose a set of pods as a network service. It provides a stable IP address and DNS name, allowing reliable communication between different parts of your application, even as pods are created or destroyed.
+
+Key Points:
+Purpose: Services enable consistent access to pods, ensuring stable communication.
+Load Balancing: Services distribute traffic across the pods they manage.
+Types:
+ClusterIP: Internal access within the cluster.
+NodePort: External access via a specific port on each node.
+LoadBalancer: External access through a cloud provider's load balancer.
+ExternalName: Maps to an external DNS name.
+Services ensure that your application remains accessible and scalable, regardless of pod changes.
+****
+
+
 Differences Between Ingress and LoadBalancer Service in Kubernetes
 Ingress and LoadBalancer Service are both methods to expose Kubernetes services to external traffic, but they serve different purposes and offer different capabilities. Here's how they differ:
 
