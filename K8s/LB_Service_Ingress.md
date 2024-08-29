@@ -1,4 +1,5 @@
 What is Ingress in Kubernetes?
+
 Ingress is a Kubernetes resource that manages external access to services within a Kubernetes cluster, typically via HTTP and HTTPS. It allows you to define rules for routing traffic to the appropriate services based on URL paths, hostnames, or other criteria.
 
 Key Points:
