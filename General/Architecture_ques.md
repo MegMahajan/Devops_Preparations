@@ -1,4 +1,4 @@
-To deploy a three-tier architecture with high availability and security,what are the steps you follow:
+## To deploy a three-tier architecture with high availability and security,what are the steps you follow:
 
 *"To deploy a highly available and secure three-tier architecture, I would start by designing the system with three distinct layers: web, application, and database, each isolated for security. I’d ensure high availability by using load balancers, auto-scaling, and database clustering or multi-AZ setups.
 
