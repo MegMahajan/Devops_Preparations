@@ -28,6 +28,16 @@ Terraform variables allow you to parameterize your configurations, making them m
 ### 10. How do you manage secrets and sensitive information in Terraform?
 Sensitive information should be stored in environment variables or external systems like AWS Secrets Manager. You can use variables to reference these values in Terraform.
 
+### Major Issue eperience in Terraform and Aws 
+
+"During a project where we used Terraform to manage our AWS infrastructure, I encountered a significant issue with resource drift. Despite our Terraform code being correctly defined, the actual state of our AWS resources was different, leading to unpredictable deployments.
+
+To diagnose the issue, I ran terraform plan and noticed discrepancies between the desired and actual states. AWS CloudTrail logs revealed that manual changes had been made directly in the AWS console, bypassing our Terraform code.
+
+To fix this, I imported the current state of these resources into Terraform using the terraform import command and updated the Terraform state file. I also established stricter controls to prevent unauthorized manual changes and set up a CI/CD pipeline to automate deployments, reducing the likelihood of future drift.
+
+This resolved the issue, stabilized our infrastructure, and significantly reduced deployment errors. The experience reinforced the importance of automation and strict version control in managing cloud infrastructure."
+
 ### 11. What is remote state in Terraform?
 Remote state in Terraform refers to storing the state file on a remote backend, such as Amazon S3, instead of locally. This facilitates collaboration and enables locking.
 
