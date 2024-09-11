@@ -7,3 +7,10 @@
 ##How do you handle secrets in Harshi Crop?
 ## Which monitoring tool u have worked on?
 ##DO u know about VPA and HPA in K8s?
+##Diff between SG & NACLS
+##Diff between NAT & IGW 
+##Diff between SES & SNS
+##Route 53 Routing Policy
+##Arcitect at the design using AWS service
+##S3 storage classses
+##Diff between s3 standard and Glacier
