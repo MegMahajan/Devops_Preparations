@@ -17,3 +17,6 @@
 ## Diff between s3 standard and Glacier
 ## Have u worked on AWSCODEPIPELINE ? Please explain the Flow.
 ## How to do handle security in your CICD plan?
+## How do you secure the sensitive info in aws?
+## Have you worked on ACM?
+
