@@ -1,5 +1,7 @@
 
 # DevOps interview Questions and Answers.
+## Basic Git commands you used?
+## What are the Kubectl commands you used?
 
 ## Please Explain CICD pipeline flow which u have worked on in your project.
 
