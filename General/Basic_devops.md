@@ -1,6 +1,10 @@
 
 # DevOps interview Questions and Answers.
 
+## Please Explain CICD pipeline flow which u have worked on in your project.
+
+
+
 
 ## 1. Can you explain the difference between continuous integration and continuous delivery?
 
