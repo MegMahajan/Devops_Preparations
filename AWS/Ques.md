@@ -3,7 +3,24 @@
 ## How do you handle situation when user is saying application is Down? what will be your first step?
 ## Explain any complex project which u design?
 ## Explain your CICD flow you are working on?
-## How do u manage zero downtime in your application
+## How do u manage zero downtime in your application.
+
+To achieve zero downtime for your applications on AWS:
+
+Blue/Green Deployment: Maintain two environments (Blue and Green) to switch traffic between the old and new versions.
+
+Canary Releases: Gradually roll out the new version to a small subset of users before full deployment.
+
+Rolling Updates: Incrementally update instances in your deployment group to ensure continuous availability.
+
+Load Balancers: Use Elastic Load Balancers (ELB) to distribute traffic and ensure only healthy instances receive requests.
+
+Auto Scaling: Automatically adjust the number of instances based on traffic and load.
+
+Database Management: Use Multi-AZ deployments and read replicas for high availability and performance.
+
+Monitoring and Alerting: Implement CloudWatch for monitoring and setting up alarms to detect and address issues proactively.
+
 ## How to do managing or optimize resource usage in k8s?
 ## How do you handle secrets in Harshi Crop?
 ## Which monitoring tool u have worked on?
