@@ -19,4 +19,13 @@
 ## How to do handle security in your CICD plan?
 ## How do you secure the sensitive info in aws?
 ## Have you worked on ACM?
+## if i want to connect to my ec2 instance with s3 bucket which is there in another account , how we can do it ?
+
+To access an S3 bucket in another AWS account from an EC2 instance:
+
+1. Create an IAM Role in Account B (S3 bucket account) that grants the necessary S3 permissions.
+2. Update the trust relationship in that role to allow Account A (EC2 instance account) to assume it.
+3. Attach an IAM Role to the EC2 instance in Account A that allows the instance to assume the role in Account B.
+4. Use AWS CLI on the EC2 instance to assume the role and access the S3 bucket.
+5. This sets up secure cross-account access between the EC2 instance and the S3 bucket.
 
