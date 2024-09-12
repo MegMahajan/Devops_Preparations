@@ -1,6 +1,6 @@
 ## Explan CICD pipeline flow in AWS
-## How would you design a higly available and scalable arcchitechture for the web application that is deployed on Ec2 ?
-## How do you handle situation when user is saying application is Down ? what wiil be your first step?
+## How would you design a highly available and scalable architechture for the web application that is deployed on Ec2?
+## How do you handle situation when user is saying application is Down? what will be your first step?
 ## Explain any complex project which u design?
 ## Explain your CICD flow you are working on?
 ## How do u manage zero downtime in your application
@@ -15,10 +15,11 @@
 ## Arcitect at the design using AWS service
 ## S3 storage classses
 ## Diff between s3 standard and Glacier
-## Have u worked on AWSCODEPIPELINE ? Please explain the Flow.
+## Have u worked on AWSCODEPIPELINE? Please explain the Flow.
 ## How to do handle security in your CICD plan?
 ## How do you secure the sensitive info in aws?
 ## Have you worked on ACM?
+## Types of Volumn in AWS 
 ## if i want to connect to my ec2 instance with s3 bucket which is there in another account , how we can do it ?
 
 To access an S3 bucket in another AWS account from an EC2 instance:
