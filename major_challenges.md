@@ -17,5 +17,15 @@ Response: "For a performance issue after a recent deployment, I would first cons
    – How to Tackle It:
 Response: "If a recent deployment causes performance issues, my approach is to first roll back to mitigate impact. I’d analyze logs and metrics to identify any resource or configuration problems, review the code changes for inefficiencies, and then implement necessary optimizations. I’d redeploy the fixed version and continuously monitor performance to ensure the issue is resolved."
 
+## When a Helm deployment fails, follow these steps to troubleshoot:
+
+Check Release Status: Use helm status <release_name> to see the current state of the release.
+Inspect Logs: Review logs with kubectl logs <pod_name> and Helm's output with helm get all <release_name>.
+Review Events: Look at Kubernetes events using kubectl get events --namespace <namespace>.
+Describe Pods: Get detailed information on the failing pods with kubectl describe pod <pod_name>.
+Validate Chart: Run helm lint <chart_path> to check for chart errors.
+Rollback if Needed: Revert to a previous version with helm rollback <release_name> <revision_number>.
+These steps should help you identify and resolve the issue with the Helm deployment.
+
 ## Git/Github
 
