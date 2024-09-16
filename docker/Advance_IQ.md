@@ -73,6 +73,17 @@ Verify firewall rules and bridge configurations on the host that might be blocki
 Question: How can you customize the Docker Daemon’s configuration? Give examples of commonly modified settings.
 Answer: The Docker Daemon can be customized by editing the daemon.json file, typically located at /etc/docker/daemon.json. Common settings include:
 Configuring logging drivers (e.g., json-file, syslog, journald).
+
+## 26. Diff between Entrypoint and Cmd?
+
+Entrypoint : sets the command that will always run unless explicitly overridden.
+CMD: sets default command and arguments for a container
+
+Entrypoint : Cnnot be overidden by default , however if u still wnat to override is --entrypoint to change it.
+cmd : is overrideen when argument is provided in docker run
+
+combination use: entrypoint allow setting a default command with default arguments. cmd provides flexibilitu while ensuring certian commands run
+    
 Setting resource limits or default network settings.
 Enabling experimental features.
 Configuring data-root for storing images and containers.
