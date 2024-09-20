@@ -11,3 +11,7 @@ PreferredDuringSchedulingIgnoredDuringExecution (soft requirement):
 
 Kubernetes will attempt to schedule pods on nodes that match the specified criteria, but it can still schedule the pod on non-matching nodes if no suitable nodes are available.
 
+##Use Cases
+Resource Optimization: Schedule CPU-intensive pods on nodes with more CPU resources.
+Specialized Hardware: Ensure pods requiring GPUs are scheduled only on nodes with GPU hardware.
+Environment Segregation: Keep production and development workloads on separate nodes.
